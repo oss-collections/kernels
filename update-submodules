@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+cd linux
+git pull
+$HOME/bin/checkout-latest-version
+cd ..
+
+cd linux-stable
+git pull
+$HOME/bin/checkout-latest-stable-version
+cd ..
