@@ -4,3 +4,6 @@
 [submodule "linux-stable"]
 	path = linux-stable
 	url = git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git
+[submodule "seL4"]
+	path = seL4
+	url = https://github.com/seL4/seL4.git
